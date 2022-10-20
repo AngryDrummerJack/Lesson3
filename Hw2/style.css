@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+.cards {
+    margin-top: 100px;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    border: solid grey;
+}
+.cards > p {
+    font-size: large;
+    color: grey;
+}
+.cards > button {
+    font-size: large;
+}
+.fa-solid {
+    font-size: 30px;
+    position: relative;
+    background-color: white;
+    top: -80px;
+    border: solid grey;
+    padding: 30px;
+    border-radius: 50%;
+}
